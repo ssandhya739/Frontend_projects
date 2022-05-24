@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Sansita+Swashed:wght@300&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+body {
+    background-color: white;
+    background-image: url(https://wallpaperaccess.com/full/187161.jpg)
+}
+
+
+.registration-form{
+    width:80%;
+    margin:10% auto;
+    border:2px solid black;
+    border-radius: 10px;
+    padding:25px;
+    background-image: url(https://cdn.pixabay.com/photo/2019/05/27/14/41/background-4232859_1280.png)
+    
+}
+.registration-form h1{
+    font-family: "Sansita Swashed";
+    
+}
