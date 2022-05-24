@@ -1,0 +1,152 @@
+.sectionOne
+{
+    background-color: #ff4c68;
+    width: 100%;
+    min-height: fit-content;
+    height: 95%;
+}
+.background2
+{
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    margin-top: 8%;
+}
+.margin1
+{
+    margin-left: 15%;
+    margin-right: 18%;
+    padding-top: 4%;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 22px;
+}
+.margin
+{
+    /* margin:2% 15% ; */
+    padding-left: 10%;
+    font-family: sans-serif;
+    font-size: 60px;
+    color: white;
+    
+}
+.img1
+{
+    overflow: hidden;
+}
+.img2
+{
+    max-width: 60%;
+    max-height: 90%;
+    transform: rotate(25deg);
+} 
+.buttonapple
+{
+    
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    /* padding-top: 8px; */
+    /* padding-bottom: px; */
+}
+.buttonapple:hover
+{
+    background-color: black;
+}
+.buttonplay
+{
+    
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #ff4c68;
+    color: white;
+    /* padding-top: 8px;
+    padding-bottom: 8px; */
+}
+.buttonplay:hover 
+{
+    background-color: aliceblue;
+    color: black;
+    /* fill: black; */
+}
+.icon
+{
+    fill: white;
+}
+.buttonplay:hover  > .icon
+{
+    fill: black!important;
+}
+.svgicon
+{
+    width: 25%;
+    height: 35%;
+    fill: #ef8172;
+    align-items: center;
+}
+.svgicon:hover
+{
+    fill: #ff4c68;
+}
+
+.sectionThree
+{
+    margin-top: 8%;
+    background-color: #ef8172;
+    width: 100%;
+    min-height: min-content;
+}
+.img3
+{
+    border-radius: 100%;
+    max-width: 90px;
+    max-height: 90px;
+}
+.slides
+{
+    margin-top: 5%;
+    text-align: center;
+    /* justify-content: center; */
+    margin-left: 8%;
+    margin-right: 8%;
+    /* font-size: x-large; */
+}
+.sectionThreetext
+{
+    color: white;
+    padding-left: 20px;
+}
+.footerclass
+{
+    margin-top: 10%;
+    width: 70px;
+    height: 50px;
+}
+#sectionfour
+{
+    text-align: center;
+}
+#sectionfive
+{
+    padding-top: 8%;
+    background-color: #ff4c68;
+    justify-content: center;
+    text-align: center;
+    min-height: min-content;
+    color: white;
+    padding-bottom: 5%;
+}
+#svgedit
+{
+    margin-top: 5%;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+#svgedit:hover
+{
+    background-color: black;
+    fill:white;
+}
