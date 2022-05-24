@@ -1,0 +1,62 @@
+.card
+{
+    height: 400px;
+    width: 230px;
+    border: 1px;
+    border-style: double;
+    /* display: flex; */
+    /* text-align: center; */
+}
+
+.menubar
+{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+.searchbar
+{
+    /* text-align: center; */
+    padding-left: 15%;
+    margin: 5px;
+    height: 40px;
+}
+.contain
+{
+    display: flex;
+    flex-shrink: 1;
+    
+}
+.contain >div
+{
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+img
+{
+    height: 150px;
+    width : 100px;
+    padding: 0px 20px 0px 0px;
+    margin: 10px;
+}
+
+.description
+{
+    font-size: 16px!important;
+    line-height: 24px!important;
+}
+
+.description:hover
+{
+    color: rgb(255, 0, 149);
+    cursor: pointer;
+}
+.price
+{
+    font-size: medium;
+    height: 26px;
+    width: 36.92px;
+    font-style: oblique;
+}
