@@ -1,0 +1,91 @@
+body
+{
+    display: flex;
+    height: 100vh; 
+    overflow: hidden;  
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image:url(https://media1.popsugar-assets.com/files/thumbor/H_szSoHpDHAtroUFPY-aXQyKNYY/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/09/23/943/n/1922507/94e763c7d9a16c2f_pexels-oleg-magni-1235398/i/Pastel-Sky-iPhone-Wallpaper.jpg)
+
+}
+
+.header h1
+{
+    margin-top: 1px;
+    margin-bottom: 20px;
+    height: 7vh;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration:dotted underline rgb(228, 115, 22);
+}
+  
+.stop
+{
+    width: 25%;
+}
+
+.container
+{
+    display: flex;
+    width: 70%;
+}
+.panel
+{
+    position: relative;
+    height: 80vh;
+    flex: 0.5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 700ms ease-in;
+}
+.panel h3
+{
+    font-size: 25px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+.panel.active
+{
+    flex: 5;
+    border: solid;
+    border-color: black;
+}
+.panel.active h3
+{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 400ms;
+}
+
+#panel-1{
+    background-image: url("https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");   
+}
+
+#panel-2{
+    background-image: url("https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");   
+}
+
+#panel-3{
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80");   
+}
+
+#panel-4{
+    background-image: url("https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");   
+}
+
+#panel-5{
+    background-image: url("https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");   
+}
